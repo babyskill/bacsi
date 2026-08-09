@@ -10,3 +10,7 @@
 .original-credit{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);text-align:center}
 .original-credit a{color:var(--muted);font-size:10px;font-family:var(--font-sans),sans-serif;text-decoration:none;transition:color .2s ease;display:inline-flex;align-items:center;gap:4px}
 .original-credit a:hover{color:var(--coral);text-decoration:underline}
+
+.topbar{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:16px!important;max-width:1720px;height:68px;margin:0 auto}
+.header-actions{display:inline-flex;align-items:center;gap:10px;margin-left:auto;flex-shrink:0}
+@media (width<=1040px){.header-actions{margin-left:0}}
